@@ -4,6 +4,7 @@ outputs/
 inference_outputs
 test.sh
 *__pycache__/
+.venv
 
 # Custom weights folder (mainly for testing).
 weights/
