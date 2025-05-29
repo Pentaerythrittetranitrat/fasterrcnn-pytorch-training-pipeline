@@ -72,7 +72,7 @@ def parse_opt():
     )
     parser.add_argument(
         '-d', '--device', 
-        default='cuda',
+        default='cpu',
         help='computation/training device, default is GPU if GPU present'
     )
     parser.add_argument(
