@@ -1,17 +1,17 @@
 # Images and labels direcotry should be relative to train.py
-TRAIN_DIR_IMAGES: ./data/barsch_pascal_voc/Sose25DS.v2i.voc/train/images
-TRAIN_DIR_LABELS: ./data/barsch_pascal_voc/Sose25DS.v2i.voc/train/annotations
-VALID_DIR_IMAGES: ./data/barsch_pascal_voc/Sose25DS.v2i.voc/train/images
-VALID_DIR_LABELS: ./data/barsch_pascal_voc/Sose25DS.v2i.voc/train/annotations
+TRAIN_DIR_IMAGES: ./data/perch_pascal_voc/train/images
+TRAIN_DIR_LABELS: ./data/perch_pascal_voc/train/annotations
+VALID_DIR_IMAGES: ./data/perch_pascal_voc/valid/images
+VALID_DIR_LABELS: ./data/perch_pascal_voc/valid/annotations
 # Optional test data path. If given, test paths (data) will be used in
 # `eval.py`.
-# TEST_DIR_IMAGES: 
-# TEST_DIR_LABELS: 
+TEST_DIR_IMAGES: ./data/perch_pascal_voc/test/images
+TEST_DIR_LABELS: ./data/perch_pascal_voc/test/annotations
 
 # Class names.
 CLASSES: [
     '__background__',
-    'Barsch'
+    'Perch'
 ]
 
 # Number of classes (object classes + 1 for background class in Faster RCNN).
